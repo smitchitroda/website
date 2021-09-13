@@ -1,0 +1,590 @@
+*
+{
+	padding : 0;
+	margin : 0;		
+	font-family : Comic Sans MS
+}
+
+ /* -------------------section1------------------ */
+.main
+{
+	background-image : linear-gradient(to left,rgba(255,255,176,.2),rgba(128,128,128,.6)),url('070.jpg');
+	background-size : cover;
+	height : 100vh;
+	background-position : center;	
+}
+#logo
+{
+	position : absolute;
+	margin : 20px;
+	height : auto;
+	width : 125px;
+	border : 3px solid black;
+	border-radius : 70px 0px 70px 0px;	
+	padding : 2px;
+	transition : .8s ease;
+}
+/* #logo:hover */
+/* { */
+	/* height : auto; */
+	/* width : 133px; */
+	/* border : 7px dotted black; */
+	/* border-radius : 100px 0px 100px 0px;	 */
+/* } */
+#title
+{
+	position : absolute;
+	left : 30%;
+	top : 35%;
+	font-family : Cooper;
+	font-size : 50px;
+	color : rgba(0,100,0,.9);
+}
+spam
+{
+	color : rgba(255,128,0,.7);
+}
+.reg
+{
+	position : absolute;
+	font-family : Harlow Solid;
+	font-size : 20px;
+	top : 10%;
+	left : 12%
+}
+#menu
+{
+	top : 35px;
+	right : 30px;
+	position : absolute;
+	height : 40px;
+	width : 40px;
+	cursor : pointer;
+	transition : .6s ease;
+	border-radius : 25px;
+}
+#menu img
+{
+	height : 40px;
+	width : 40px;
+	padding : 0px;	
+	border-radius : 20px;	
+	transition : .5s ease;
+}
+#menu img:hover, #menu:hover
+{
+	height : 45px;
+	width : 45px;		
+}
+#navigetion
+{	
+	right : -260px;
+	top : 0;
+	background : linear-gradient(to bottom,rgba(145,145,145,.5),rgba(0,0,0,.5));
+	height : 695px;
+	width : 260px;
+	position : fixed;
+	transition : .9s ease-in;
+	border : 2px solid black;
+	border-radius : 50px 0px 0px 50px;
+}
+#navigetion ul
+{
+	list-style-type : none;
+	margin-top : 50%;
+	margin-left : 25%;
+}
+#navigetion ul li
+{	
+	margin-top : 40px;
+	top : 10px;
+	padding : 20px;
+}
+#navigetion ul li a
+{
+	font-family : Harlow Solid;
+	font-size : 25px;
+	text-decoration : none;
+	padding : 8px;
+	color : black;
+	transition : 0.6s ease;
+	border : 1px solid white transparent;
+	border-radius : 15px;
+}
+#n1
+{
+	border-top : 3px solid black;
+	border-right : 3px solid black;
+}
+#n1:hover
+{
+	border-top : 0px;
+	border-right : 0px;
+	border-bottom : 6px solid black;
+	border-left : 6px solid black;
+	color : rgba(255,255,255,.5);
+}
+#button
+{
+	position : absolute;
+	top : 55%;
+	left : 34%
+}
+#button a
+{
+	font-family : Harlow Solid;
+	font-size : 25px;
+	text-decoration : none;
+	color : black;
+	padding : 10px;
+	border : 1px solid black transperent;
+	transition : 0.6s ;
+	border-radius : 15px;
+	margin : 10px;
+	border-top : 3px solid black;
+	border-right : 3px solid black;
+}
+#btn:hover
+{
+	border-top : 0px;
+	border-right : 0px;
+	border-bottom : 6px solid black;
+	border-left : 6px solid black;
+	color : rgba(0,200,0,.7);
+}
+/* #registration */
+/* { */
+	/* position : absolute; */
+	/* top : 85%; */
+	/* left : 55%; */
+	/* display : flex; */
+	/* font-family : chiller; */
+	/* font-size : 27px; */
+	/* color : black; */
+/* } */
+.click
+{	
+	position : relative;
+	font-family : Harlow Solid;
+	font-size : 35px;
+	text-decoration : none;
+	color : rgba(217,217,217,.7);
+	padding : 7px;
+	border : 1px solid black transparent;
+	transition : 0.6s ;
+	transition : color .6s ;
+	border-radius : 15px;
+	margin : 0px;
+	top : 86%;
+	left : 0;
+	z-index : 1;
+	cursor : pointer;
+}
+/* #click span */
+/* { */
+	/* border : 1px solid black transparent ; */
+	/* border-radius : 0px 25px 25px 0px; */
+	/* z-index : -1; */
+	/* width : 0%; */
+	/* height : 90%; */
+	/* background : linear-gradient(to left,rgba(255,255,255,.2),gray); */
+	/* position : absolute; */
+	/* top : 0; */
+	/* left : 0; */
+	/* transition : .5s ease;	 */
+/* } */
+/* #click:hover span */
+/* { */
+	/* width : 103%; */
+/* } */
+.click:hover
+{
+	color : rgba(0,0,0,.7);
+}
+.searchbox
+{
+	position : absolute;
+	top : 50%;
+	left : 20%;
+	transform : translate(-50%,-50%);
+	background : #2f3640 trnasperant;
+	height : 40px;
+	border-radius : 50px;
+	padding : 8px;
+	padding-bottom : 2px;
+	
+}
+.searchbox img
+{
+	height : 35px;
+	width : 35px;
+}
+.searchbox:hover  > .searchtxt
+{
+	width : 240px;
+	padding : 0 6px;	
+}
+.searchbtn
+{
+	color : #e84118;
+	float : right;
+	width : 40px;
+	height : 40px;
+	border-radius : 50%;
+	background : #2f3640;
+	display : flex;
+	/* justify-content : center; */
+	/* align-items : center; */
+}
+.searchtxt
+{
+	text-align : center;
+	border : none;
+	background : none;
+	outline : none;
+	float : left;
+	padding : 0;
+	color : white;
+	font-size : 16px;
+	transition : #4s;
+	line-height : 40px;
+	width : 0px;
+	transition : .6s ease-in-out;
+}
+/* ------form style------ */
+#searchtxt
+{
+	top : 682px;
+	left : 2px;
+	margin : 10px;
+	height : 340px;
+	width : 340px;
+	background : rgba(0,0,0,.5);
+	position : fixed;
+	border : 2px solid black;
+	border-radius : 20px;
+	transition : 1s ease-in;
+}
+#searchtxt h1
+{
+	color : white;
+	margin-top : 20px;
+	margin-left : 25%;
+	margin-bottom : 10px;
+	left : 30px;
+	font-size : 30px;		
+}
+#searchtxt form
+{
+	top : 0;	
+	margin-left : 15%;	
+}
+#searchtxt form input[type='text']
+{
+	border : 0;	
+	background : transparent;		
+	margin : 9px;
+	text-align : center;
+	border : 1px solid cyan;
+	padding : 10px;
+	width : 75%;
+	height : 35px;
+	outline : none;
+	color : white;
+	border-radius : 25px;
+	transition : .5s ease-in;	
+}
+#searchtxt form input[type='submit']
+{
+	text-align : center;
+	outline : none;
+	background : transparent;
+	border : 0;
+	padding : 10px;
+	margin : 7px;
+	border : 1px solid rgba(0,255,0);	
+	border-radius : 25px;
+	color : white;
+	margin-left : 25%;
+	width : 30%;
+	transition : .5s ease-in-out;
+	/* background : rgba(213,0,0,.6); */
+}
+#searchtxt form input[type='text']:focus	 
+{
+	margin-left : 10%;
+	border : 1px solid green;
+	height: 40px;
+	width : 80%;
+	font-size : 15px;
+	background : rgba(128,255,255,.2);	
+}
+#searchtxt form input[type='submit']:hover
+{
+	background : rgb(0,255,0,.2);	
+}
+::-webkit-input-placeholder
+{
+	color : rgba(255,146,94,.6);
+}
+#click1
+{	
+	position : absolute;
+	top : 600px;	
+	left : 5%;
+	transition : 1s ease-in;	
+}
+#click1btn
+{
+	cursor : pointer;
+}
+#click1 button
+{
+	border : 0;
+	background : rgba(255,255,176,.2);
+	text-align : center;
+	border : 2px solid black;
+	border-radius : 25px;
+	padding : 8px;
+	padding-left : 10px;
+	padding-right : 10px;
+	color : rgba(128,255,255,.6);
+	font-size : 17px;
+	transition : .6s ease-in;
+}
+#click1 button:hover
+{
+	color : rgba(255,255,176,.6);
+	background : rgba(200,0,0,.2);
+}
+/* --------------------------section1--------------------- */
+/*-------media query--------*/
+@media only screen and (max-width : 500px) 
+{
+	.main
+	{
+		background-image : linear-gradient(to left,rgba(255,255,176,.2),rgba(128,128,128,.6)),url('070.jpg');
+		background-size : cover;
+		height : 100vh;
+		background-position : center;	
+	}
+	#logo
+	{
+		position : absolute;
+		margin : 20px;
+		height : auto;
+		width : 70px;
+		border : 3px dotted black;
+		border-radius : 40px 0px 40px 0px;	
+		transition : .8s ease;
+		padding : 1px;
+	}		
+	#title
+	{
+		position : absolute;
+		left : 30%;
+		top : 30%;
+		font-family : Cooper;
+		font-size : 20px;
+		color : rgba(0,100,0,.9);
+	}		
+	.reg
+	{
+		position : absolute;
+		font-family : Harlow Solid;
+		font-size : 13px;
+		top : 11%;
+		left : 5%
+	}
+	#menu,#menu img
+	{
+		top : 20px;
+		right : 25px;
+		position : absolute;
+		height : 25px;
+		width : 25px;
+		cursor : pointer;
+		transition : .6s ease;
+		border-radius : 25px;
+	}
+	#menu img:hover, #menu:hover
+	{
+		height : 30px;
+		width : 30px;		
+	}
+	#navigetion
+	{	
+		right : -200px;
+		top : 0;
+		background : linear-gradient(to bottom,rgba(145,145,145,.5),rgba(0,0,0,.5));
+		height : 695px;
+		width : 200;
+		position : fixed;
+		transition : .9s ease-in;
+		border : 2px solid black;
+		border-radius : 25px 0px 0px 25px;
+	}
+	#navigetion ul
+	{
+		list-style-type : none;
+		margin-top : 180px;
+		margin-left : 39px;
+	}
+	#navigetion ul li
+	{	
+		margin-top : 20px;
+		top : 20px;
+		padding : 20px;
+	}
+	#navigetion ul li a
+	{
+		font-family : Harlow Solid;
+		font-size : 20px;
+		text-decoration : none;
+		padding : 4px;
+		color : black;
+		transition : 0.6s ease;
+		border : .5px solid white transparent;
+		border-radius : 7px;
+	}
+	#n1
+	{
+		border-top : 2px solid black;
+		border-right : 2px solid black;
+	}
+	#n1:hover
+	{
+		border-top : 0px;
+		border-right : 0px;
+		border-bottom : 2px solid black;
+		border-left : 2px solid black;
+		color : rgba(255,255,255,.5);
+	}
+	#button
+	{
+		position : absolute;
+		top : 39%;
+		left : 37%;
+	}
+	#button a
+	{
+		font-family : Harlow Solid;
+		font-size : 17px;
+		text-decoration : none;
+		color : black;
+		padding : 5px;
+		border : 1px solid black transperent;
+		transition : 0.6s ;
+		border-radius : 7px;
+		margin-top : 6px;
+		/* margin-top : 2px; */
+		border-top : 2px solid black;
+		border-right : 2px solid black;
+		display : block;
+	}
+	#btn:hover
+	{
+		border-top : 0px;
+		border-right : 0px;
+		border-bottom : 2px solid black;
+		border-left : 2px solid black;
+		color : rgba(0,200,0,.7);
+	}
+	#searchtxt
+	{
+		overflow : hidden;
+		top : 676px;
+		left : 2px;
+		margin : 10px;
+		height : 250px;
+		width : 200px;
+		background : rgba(0,0,0,.5);
+		position : fixed;
+		border : 1px solid black;
+		border-radius : 10px;
+		transition : 1.3s ease-in;
+	}	
+	#searchtxt h1
+	{
+		color : white;
+		margin-top : 15px;
+		margin-left : 30%;
+		margin-bottom : 10px;
+		left : 30px;
+		font-size : 15px;		
+	}
+	#searchtxt form
+	{
+		top : 0;	
+		margin-left : 15%;	
+	}
+	#searchtxt form input[type='text']
+	{
+		border : 0;	
+		background : transparent;		
+		margin : 5px;
+		text-align : center;
+		border : 1px solid cyan;
+		padding : 5px;
+		width : 75%;
+		height : 30px;
+		outline : none;
+		color : white;
+		border-radius : 25px;
+		font-size : 10px;
+		transition : .5s ease-in;	
+	}
+	#searchtxt form input[type='submit']
+	{
+		text-align : center;
+		outline : none;
+		background : transparent;
+		border : 0;
+		padding : 5px;
+		margin : 7px;
+		border : 1px solid rgba(0,255,0);	
+		border-radius : 25px;
+		color : white;
+		margin-left : 22%;
+		width : 35%;		
+		transition : .5s ease-in-out;
+		font-size : 10px;
+		/* background : rgba(213,0,0,.6); */
+	}
+	#searchtxt form input[type='text']:focus	 
+	{
+		margin-left : 10%;
+		border : 1px solid green;
+		height: 30px;
+		width : 80%;
+		font-size : 13px;
+		background : rgba(128,255,255,.2);	
+	}
+	#click1
+	{	
+		position : absolute;
+		top : 600px;	
+		left : 5%;
+		transition : 1s ease-in;	
+	}
+	#click1btn
+	{
+		cursor : pointer;
+	}
+	#click1 button
+	{
+		border : 0;
+		background : rgba(255,255,176,.2);
+		text-align : center;
+		border : 1px solid black;
+		border-radius : 12px;
+		padding : 4px;
+		padding-left : 5px;
+		padding-right : 5px;
+		color : rgba(128,255,255,.6);
+		font-size : 10px;
+		transition : 1s ease-in;
+	}
+}
+
+/*-------media query--------*/
